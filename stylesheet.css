@@ -1,0 +1,168 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+/*html,body{*/
+/*  height:100%;*/
+/*}*/
+
+header{
+  width:100%;
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  z-index:10;
+  position:fixed;
+}
+.header-left{
+  float:left;
+}
+.logo{
+  width:124px;
+  padding-top:20px;
+}
+.login{
+  background-color:rgba(255,255,255,0.3);
+  color:white;
+  float:right;
+  padding:0 25px;
+  line-height:65px;
+  cursor:pointer;
+}
+.header-right{
+  float:right;
+  transition:all 0.5s;
+}
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+.top-paper{
+  background-image:url("https://prog-8.com/images/html/advanced/top.png");
+  width:100%;
+  text-align:center;
+  color:white;
+  background-size:cover;
+  padding-top:180px;
+  padding-bottom:100px;
+}
+.top-paper h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+  opacity:0.7;
+}
+.top-paper p{
+  margin-bottom:15px;
+  opacity:0.7;
+}
+.container{
+  margin:0 55px;
+}
+.btn{
+ display:inline-block;
+ border-radius:4px;
+ padding:8px 24px;
+ opacity:0.8;
+ cursor:pointer;
+}
+.btn:hover{
+  opacity:1;
+}
+.singup{
+  background-color:#239b76;
+  margin:15px 0;
+}
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+.twitter{
+ background-color: #55acce;
+}
+.lesson-paper{
+  background-color:#f7f7f7;
+}
+.container-lesson{
+  width:1170px;
+  height:580px;
+  margin:auto;
+}
+.heading{
+  text-align:center;
+  padding:80px 0 50px 0;
+ color:#5f5d60;
+}
+.lesson{
+  width:25%;
+  text-align:center;
+  float:left;
+}
+.lesson-icon{
+  position:relative;
+  color:white;
+}
+.lesson-icon p{
+  position:absolute;
+  top:44%;
+  width:100%;
+}
+.text-contents{
+ display:inline-block;
+  width:80%;
+ margin-top:15px;
+  font-size:13px;
+  color:#b3aeb5;
+}
+ .message-peper{
+   text-align:center;
+ }
+ .heading{
+   padding:80px 0 50px 0;
+   color:#5f5d60;
+ }
+ .message{
+   display:inline-block;
+   padding:15px 40px;
+   margin-bottom:80px;
+   background-color:#5dca88;
+   box-shadow:0 7px #1a7940;
+   opacity:0.8;
+   color:white;
+ }
+ .message:active{
+   position:relative;
+   top:7px;
+   box-shadow:none;
+ }
+ 
+ footer{
+   padding:30px 0;
+   border-top:1px solid #eee;
+   }
+ .footer-contener{
+   width:1170px;
+   margin:auto;
+ }
+ .footer-contener>img{
+   width:124px;
+ }
+ .footer-contener>p{
+   font-size:12px;
+   color:#b3aeb5;
+ }
